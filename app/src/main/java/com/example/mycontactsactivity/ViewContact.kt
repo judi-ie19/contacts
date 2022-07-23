@@ -20,9 +20,11 @@ class ViewContact : AppCompatActivity() {
         var email=intent.extras?.getString("EMAIL")
         var number=intent.extras?.getString("NUMBER")
         var image=binding.ivperson
+
         Toast.makeText(this,name,Toast.LENGTH_LONG).show()
 
         binding.tvName.text=name
+        binding.tvnumber.text=number
 
 
 

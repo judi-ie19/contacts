@@ -123,4 +123,73 @@
       app:layout_constraintStart_toEndOf="@+id/tvblock"
       app:layout_constraintTop_toBottomOf="@+id/ivinvite" />
 
+  <ImageView
+      android:id="@+id/ivcall2"
+      android:layout_width="45dp"
+      android:layout_height="40dp"
+      android:layout_marginStart="16dp"
+      android:layout_marginTop="24dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/tvcontact"
+      app:srcCompat="@drawable/ic_baseline_phone_24" />
+
+  <TextView
+      android:id="@+id/tvnumber"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="112dp"
+      android:text="0757497424"
+      android:textSize="24sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.291"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/tvmessage" />
+
+  <TextView
+      android:id="@+id/textView8"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="24dp"
+      android:text="Mobile"
+      android:textSize="24sp"
+      app:layout_constraintEnd_toStartOf="@+id/textView9"
+      app:layout_constraintHorizontal_bias="0.533"
+      app:layout_constraintStart_toEndOf="@+id/ivcall2"
+      app:layout_constraintTop_toBottomOf="@+id/tvnumber" />
+
+  <TextView
+      android:id="@+id/textView9"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="24dp"
+      android:layout_marginEnd="72dp"
+      android:text="Safaricom"
+      android:textSize="24sp"
+      app:layout_constraintEnd_toStartOf="@+id/ivmessage2"
+      app:layout_constraintTop_toBottomOf="@+id/tvnumber" />
+
+  <ImageView
+      android:id="@+id/ivmessage2"
+      android:layout_width="55dp"
+      android:layout_height="55dp"
+      android:layout_marginTop="108dp"
+      android:layout_marginEnd="16dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/tvinvite"
+      app:srcCompat="@drawable/ic_baseline_message_24" />
+
+  <TextView
+      android:id="@+id/tvcontact"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="36dp"
+      android:text="Contact info"
+      android:textColor="#3F51B5"
+      android:textSize="34sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.075"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/tvcall" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
